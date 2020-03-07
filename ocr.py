@@ -85,3 +85,5 @@ def model(img, adjust=False):
     result = charRec(img, text_recs, adjust)
     return result, img_framed
 
+def sayhello():
+    print("hello,world")
