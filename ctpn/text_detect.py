@@ -98,4 +98,4 @@ if __name__ == '__main__':
     im = Image.open('./test_images/1.jpg')
     img = np.array(im.convert('RGB'))
     text_recs, img_drawed, img = text_detect(img)
-    Image.fromarray(img_drawed).save('result.jpg')
+    Image.fromarray(img_drawed).save('result2.jpg')
